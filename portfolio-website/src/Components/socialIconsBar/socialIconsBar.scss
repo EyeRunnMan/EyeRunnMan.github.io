@@ -1,0 +1,45 @@
+@use "../../Stylesheets/partials/screenMixin";
+
+.social-icons {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 2em;
+   margin: 2.5em auto;
+
+   & a i {
+      background-position: 0 0;
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+   }
+   & .github {
+      background: url("../../assets/images/github.svg") no-repeat top left;
+      background-size: 100%;
+   }
+   & .discord {
+      background: url("../../assets/images/discord.svg") no-repeat top left;
+      background-size: 100%;
+   }
+   & .instagram {
+      background: url("../../assets/images/instagram.svg") no-repeat top left;
+      background-size: 100%;
+   }
+   & .linkedin {
+      background: url("../../assets/images/linkedin.svg") no-repeat top left;
+      background-size: 100%;
+   }
+   & .mail {
+      background: url("../../assets/images/envelope-fill.svg") no-repeat top
+         left;
+      background-size: 100%;
+   }
+   @include screenMixin.respond(desktop) {
+      & a i {
+         background-position: 0 0;
+         width: 38px;
+         height: 38px;
+         display: inline-block;
+      }
+   }
+}

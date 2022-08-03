@@ -1,0 +1,79 @@
+@use "../../Stylesheets/partials/screenMixin";
+
+.project-card-single {
+   position: relative;
+   width: 90%;
+   aspect-ratio: 2/1;
+   margin: 10px auto;
+   cursor: pointer;
+   transform: scale(0.8);
+   transition: transform 0.4s;
+   & .play-video-icon {
+      position: absolute;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%, -50%);
+      width: 75px;
+      filter: invert(25%);
+   }
+
+   & video {
+      width: 100%;
+      filter: grayscale(100%);
+   }
+   & img {
+      width: 100%;
+   }
+   & span {
+      background-color: black;
+      position: absolute;
+      font-family: "roboto";
+      font-weight: 200;
+      top: 15px;
+      left: 15px;
+      font-size: 3.2rem;
+      color: white;
+      font-style: italic;
+   }
+   &:hover {
+      & video {
+         filter: grayscale(0);
+      }
+      & .play-video-icon {
+         display: none;
+      }
+   }
+
+   & button,
+   & a {
+      position: relative;
+      bottom: 55px;
+      left: 10px;
+      margin-right: 10px;
+      background-color: rgba(202, 202, 202, 0.432);
+      border-radius: 5px;
+      border: 3px solid rgba(0, 0, 0, 0.884);
+
+      color: black;
+      text-decoration: none;
+
+      padding: 7px;
+      font-family: roboto;
+      font-weight: 300;
+      font-size: 1.8rem;
+   }
+
+   &.web-card {
+      & span {
+         background-color: rgb(233, 145, 145);
+         color: rgb(0, 0, 0);
+      }
+   }
+   @include screenMixin.respond(desktop) {
+      width: 30%;
+      &:hover {
+         transform: scale(1);
+         z-index: 2;
+      }
+   }
+}

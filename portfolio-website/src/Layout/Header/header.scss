@@ -1,0 +1,10 @@
+@use "../../Stylesheets/partials/screenMixin";
+
+.app-header {
+   width: 100%;
+   margin: auto;
+
+   @include screenMixin.respond(desktop) {
+      width: 80%;
+   }
+}

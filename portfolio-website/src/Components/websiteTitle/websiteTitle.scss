@@ -1,0 +1,30 @@
+@use "../../Stylesheets/partials/screenMixin";
+.title-container {
+   width: fit-content;
+   margin: auto;
+   &-text {
+      margin: 10px 0;
+
+      font-family: "title font";
+      font-weight: 900;
+      font-size: 5.8rem;
+      letter-spacing: 0.1ch;
+
+      text-align: center;
+
+      padding: 0;
+
+      background: url(../../assets/images/titleBg2.jpg) repeat, black;
+      background-size: 50%;
+      background-clip: text;
+      color: transparent;
+      text-transform: uppercase;
+   }
+
+   @include screenMixin.respond(desktop) {
+      &-text {
+         margin: 0%;
+         font-size: 10.8rem;
+      }
+   }
+}

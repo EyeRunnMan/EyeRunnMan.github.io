@@ -1,0 +1,23 @@
+@import "./partials/reset";
+
+@import "./partials/importedFonts";
+
+@import "../assets//fonts//robotFont/robotFont";
+
+html {
+   font-size: 0.625rem;
+   width: 100%;
+}
+
+body,
+#root {
+   width: 100%;
+}
+body {
+   background-image: linear-gradient(
+      140deg,
+      #ffffff 0%,
+      #ffffff 20%,
+      #3aaaeb 75%
+   );
+}

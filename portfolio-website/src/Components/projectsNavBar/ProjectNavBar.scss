@@ -1,0 +1,49 @@
+@use "../../Stylesheets/partials/screenMixin";
+
+.project-nav-bar-container {
+   margin-top: 2.75em;
+   & > span {
+      font-family: roboto;
+      font-size: 3.8rem;
+      font-weight: 300;
+      text-align: center;
+      display: block;
+   }
+
+   & ul {
+      background-color: rgb(168, 168, 168);
+
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      font-size: 1.8rem;
+      padding: 0;
+      font-family: roboto;
+      font-weight: 300;
+      padding: 0.5em;
+
+      & li {
+         cursor: pointer;
+         list-style: none;
+         padding: 0.5em;
+
+         background-color: white;
+         border-radius: 0.3em;
+         &.active {
+            background-color: black;
+            color: white;
+         }
+      }
+   }
+   @include screenMixin.respond(desktop) {
+      & > span {
+         padding: 0.5em;
+      }
+      & ul {
+         width: 80%;
+         margin: auto;
+         border-radius: 0.5em;
+         justify-content: start;
+      }
+   }
+}

@@ -1,0 +1,153 @@
+{
+   "name": "Karan Batra",
+   "projects": {
+      "Game": [
+         {
+            "name": "Boids Simulation",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Videos/Portfolio_G01-boids.mp4",
+            "codeLink": "",
+            "liveLink": "",
+            "isImg": false,
+            "isWeb": false
+         },
+         {
+            "name": "Pickup & Drop",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Videos/Portfolio_G02-hands.mp4",
+            "codeLink": "",
+            "liveLink": "",
+            "isImg": false,
+            "isWeb": false
+         },
+         {
+            "name": "Floating Lotus",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Videos/Portfolio_G03-lotus.mp4",
+            "codeLink": "",
+            "liveLink": "",
+            "isImg": false,
+            "isWeb": false
+         },
+         {
+            "name": "Multiplay",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Videos/Portfolio_G04-multiplayer.mp4",
+            "codeLink": "https://github.com/EyeRunnMan/Unity-Multiplayer-Setup",
+            "liveLink": "",
+            "isImg": false,
+            "isWeb": false
+         },
+         {
+            "name": "Ball Popper",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Videos/Portfolio_G05-ball-popper.mp4",
+            "codeLink": "",
+            "liveLink": "",
+            "isImg": false,
+            "isWeb": false
+         },
+         {
+            "name": "3D Character",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Videos/Portfolio_G06-jammo.mp4",
+            "codeLink": "https://github.com/EyeRunnMan/unity-3d-move-character",
+            "liveLink": "",
+            "isImg": false,
+            "isWeb": false
+         },
+         {
+            "name": "Running",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Videos/Portfolio_G07-running.mp4",
+            "codeLink": "",
+            "liveLink": "",
+            "isImg": false,
+            "isWeb": false
+         }
+      ],
+      "Websites": [
+         {
+            "name": "BattleShip - JS/Webpack",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W01-battleship.png",
+            "codeLink": "https://github.com/EyeRunnMan/battleship-js",
+            "liveLink": "https://EyeRunnMan.github.io/battleship-js",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "Lets Chat - React",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W01-lets-chat.png",
+            "codeLink": "https://github.com/EyeRunnMan/Lets-Chat",
+            "liveLink": "https://EyeRunnMan.github.io/Lets-Chat",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "CV Generator - React",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W01-cvApplication.png",
+            "codeLink": "https://github.com/EyeRunnMan/CV-Application-react",
+            "liveLink": "https://EyeRunnMan.github.io/CV-Application-react",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "Giffy Weather - JS",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W01-weather.png",
+            "codeLink": "https://github.com/EyeRunnMan/weather-pure-js",
+            "liveLink": "https://EyeRunnMan.github.io/weather-pure-js",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "FakeFerrari - React",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W04-ferrariReact.png",
+            "codeLink": "https://github.com/EyeRunnMan/vroom-store-react",
+            "liveLink": "https://EyeRunnMan.github.io/vroom-store-react",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "TicTacToe - JS",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W08-tictactoe.png",
+            "codeLink": "https://github.com/EyeRunnMan/tic-tac-toe",
+            "liveLink": "https://EyeRunnMan.github.io/tic-tac-toe",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "SignIn - HTML/CSS",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W02-signin.png",
+            "codeLink": "https://github.com/EyeRunnMan/sign-up-page-css",
+            "liveLink": "https://EyeRunnMan.github.io/sign-up-page-css",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "ToDo - JS",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W07-todo.png",
+            "codeLink": "https://github.com/EyeRunnMan/todo-nodejs",
+            "liveLink": "https://EyeRunnMan.github.io/todo-nodejs",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "Games Lib - JS",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W09-library.png",
+            "codeLink": "https://github.com/EyeRunnMan/games-library",
+            "liveLink": "https://EyeRunnMan.github.io/games-library",
+            "isImg": true,
+            "isWeb": true
+         },
+         {
+            "name": "Youtube Clone - HTML/CSS",
+            "mediaLink": "https://EyeRunnMan.github.io/static-files/Photos/Portfolio-W03-youtubeClone.png ",
+            "codeLink": "https://github.com/EyeRunnMan/youtube-video-page",
+            "liveLink": "https://EyeRunnMan.github.io/youtube-video-page",
+            "isImg": true,
+            "isWeb": true
+         }
+      ]
+   },
+   "social": {
+      "discord": "https://discordapp.com/users/700276519398015036",
+      "github": "https://github.com/EyeRunnMan",
+      "mail": "mailto:karanbtra007@gmail.com",
+      "instagram": "https://www.instagram.com/ch3ckm8_gaming/",
+      "linkedin": "https://www.linkedin.com/in/karan-b-059413178/"
+   },
+   "ResumeLink": "https://github.com/EyeRunnMan/static-files/raw/main/Karan_Batra_CV.pdf"
+}
